@@ -1,0 +1,234 @@
+(footprint "RF_433MHz_transmitter"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "RF"
+		(at 4.25 -8.75 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "deb3b924-8c12-4a91-910a-1c52f1da449d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TRANSMITTER"
+		(at 6.5 -8.75 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "38e466b0-487e-49af-9f51-371929d26fe7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df8fe00d-dfae-455a-926c-7df8af45981c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0cb1ce4-0a1f-428e-ae62-0e61e529bbe4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 8.25 -18.5)
+		(end 8.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ecaabd8-a9ed-4f5d-9cb1-4d978e21a7ff")
+	)
+	(fp_line
+		(start 8.25 -0.5)
+		(end 9.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b25494f6-3c8b-4038-8acf-726c1b833463")
+	)
+	(fp_line
+		(start 9.25 -18.5)
+		(end 8.25 -18.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0fa0b303-33e5-4f4e-bfc0-d2262aeb219f")
+	)
+	(fp_line
+		(start 9.25 -18.5)
+		(end 11.75 -18.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d2dd995-af7a-4f76-9f20-ca33164c4815")
+	)
+	(fp_line
+		(start 9.25 -0.5)
+		(end 9.25 -18.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "407445e9-9b51-43e4-922c-2cb66c9f25db")
+	)
+	(fp_line
+		(start 11.75 -18.5)
+		(end 11.75 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2ed35b3-b0c2-4dbf-81ea-f99572c23d78")
+	)
+	(fp_line
+		(start 11.75 -0.5)
+		(end 9.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2eca5386-97c0-4671-a218-3f7deaa89126")
+	)
+	(fp_rect
+		(start 8 -19)
+		(end 12 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c30fe9ef-8fc4-4d0d-be88-c10cc88dbfaa")
+	)
+	(fp_text user "VCC"
+		(at 12.5 -12.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "421fec47-3b45-4d08-9c01-d384ff306932")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "EN"
+		(at 12.5 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5df051d2-99ea-417f-b681-9bfebc27ae95")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 12.5 -15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "78b3707e-662f-440b-9cba-d6a9c623f8c1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "DAT"
+		(at 12.5 -10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ea777197-f91f-4eec-83b5-f41dfba35e48")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 10.75 -8)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77450588-5f60-4cd4-96dc-250b3db340c1")
+	)
+	(pad "2" thru_hole circle
+		(at 10.75 -10.54)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06d456ba-542b-4476-9f21-e445e92d47c8")
+	)
+	(pad "3" thru_hole circle
+		(at 10.75 -13.08)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37cb2b8d-d521-49f6-96f4-db3f6f5ab597")
+	)
+	(pad "4" thru_hole circle
+		(at 10.75 -15.62)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "acd1ce18-e1de-430c-8278-de88bb8d6acf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/ITLA_Library/3dModels/WL102-341_Vertical.stp"
+		(offset
+			(xyz 6.2 11.8 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -90)
+		)
+	)
+)

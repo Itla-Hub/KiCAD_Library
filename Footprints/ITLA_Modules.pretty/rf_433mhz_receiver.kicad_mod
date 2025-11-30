@@ -1,0 +1,181 @@
+(footprint "rf_433mhz_receiver"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "RF"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a3c9e953-a5bf-4bf0-86a7-586536fb5e86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RECEIVER"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b79c342f-1413-4da6-84e1-4d3f8687ba8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97e56ea8-deb7-4f1b-bb5d-5722a9cc8bc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46f22768-5904-4f70-94f2-4a084281834e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.75 -15.25)
+		(end 1 9.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fef52069-5f5a-40f7-9df0-1f0ce99faa70")
+	)
+	(fp_rect
+		(start -4.5 -15.75)
+		(end 6 9.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5d71ae6e-aaa9-40cf-b902-1c6622ffa17e")
+	)
+	(fp_text user "DO"
+		(at 3.5 -10.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "26adc554-5b5a-43fe-9d3e-76e3ba3bcc67")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "DO"
+		(at 3.5 -8.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "47847272-c9dd-455d-8bfa-b80ec83494eb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 3.5 -13.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d86035a1-fb7c-4056-8d42-a3754695aa61")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VDD"
+		(at 3.5 -5.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7af9457-c855-4245-8dd5-93a80a965165")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2 -6.25)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "20574a9a-8e94-4b98-a262-a3053bf7e619")
+	)
+	(pad "2" thru_hole circle
+		(at 2 -8.79)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5eca43b2-7462-436c-81f1-6c8d2d70cc92")
+	)
+	(pad "3" thru_hole circle
+		(at 2 -11.33)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "61456daf-270e-4c06-b8ac-418d4f567dba")
+	)
+	(pad "4" thru_hole circle
+		(at 2 -13.87)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "365b5c1c-23e5-4aa8-9f8d-2310667b2260")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/ITLA_Library/3dModels/Module RF 433MHz_RECEIVER.step"
+		(offset
+			(xyz -3.6 -7 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
