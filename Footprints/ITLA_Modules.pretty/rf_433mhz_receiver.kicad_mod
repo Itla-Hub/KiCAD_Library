@@ -167,7 +167,7 @@
 		(uuid "365b5c1c-23e5-4aa8-9f8d-2310667b2260")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/ITLA_Library/3dModels/Module RF 433MHz_RECEIVER.step"
+	(model "${KIPRJMOD}/KiCAD_Library/3dModels/Module RF 433MHz_RECEIVER.step"
 		(offset
 			(xyz -3.6 -7 10)
 		)

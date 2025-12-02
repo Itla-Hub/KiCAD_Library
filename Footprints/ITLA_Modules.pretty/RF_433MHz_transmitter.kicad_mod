@@ -220,7 +220,7 @@
 		(uuid "acd1ce18-e1de-430c-8278-de88bb8d6acf")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/ITLA_Library/3dModels/WL102-341_Vertical.stp"
+	(model "${KIPRJMOD}/KiCAD_Library/3dModels/WL102-341_Vertical.stp"
 		(offset
 			(xyz 6.2 11.8 7)
 		)
