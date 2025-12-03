@@ -19,7 +19,7 @@ git submodule update --init --recursive
 
 2. En KiCad agrega las librerías del proyecto:
 
-- [`Preferences Panel`](Assets/Preferences.png)
+- ![`Preferences Panel`](Assets/Preferences.png)
 
 - Símbolos: `Preferences -> Manage Symbol Libraries -> Project Specific Libraries`.
   - NickName: `ITLA_Modules`
@@ -29,7 +29,7 @@ git submodule update --init --recursive
   - NickName: `ITLA_Modules`
   - Library Path: `${KIPRJMOD}/KiCAD_Library/Footprints/ITLA_Modules.pretty`
 
- [`Add Library`](Assets/add_library.png)
+ ![`Add Library`](Assets/add_library.png)
 
 3. (Opcional) Para usar los modelos 3D, añade la carpeta `3dModels` en las rutas de modelos 3D si tu flujo lo requiere.
 
