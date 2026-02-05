@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "ITLA_Modules:DRV8870_Castellated_module"
+			(at 5.08 -3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
